@@ -1,1 +1,1 @@
-# Belajar CI/CD dengan Github Actions
+# BELAJAR CI/CD dengan Github Actions
