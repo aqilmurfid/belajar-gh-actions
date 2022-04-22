@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
       with:
         testFilePath: ReqResIn product.jmx
         outputReportsFolder: reports/
-        test:
+  #      test:
   #    runs-on: ubuntu-latest
   #    steps:
   #     - uses: actions/checkout@v3
