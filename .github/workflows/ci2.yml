@@ -10,7 +10,7 @@ jobs:
     - name: Run JMeter Tests
       uses: rbhadti94/apache-jmeter-action@v0.5.0
       with:
-        testFilePath: ReqResIn product.jmx
+        testFilePath: ReqResIn.jmx
         outputReportsFolder: reports/
   #      test:
   #    runs-on: ubuntu-latest
